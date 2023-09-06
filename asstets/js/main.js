@@ -7,9 +7,8 @@ const ora = new Date();
 console.log(ora);
 
 // domani alle 9 30
-const domani = new Date();
-domani.setDate(ora.getDate() + 1);
-domani.setHours(9, 30, 0, 0); 
+const domani = new Date(2023, 8, 6);//data
+domani.setHours(9, 55, 0, 0); //ora
 console.log(domani);
 
 // differenza di tempo in ms?
